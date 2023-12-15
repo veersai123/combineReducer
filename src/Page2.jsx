@@ -6,7 +6,6 @@ function Page2() {
   return (
     <>
     <h1>{y}</h1>
-    <div>Page2</div>
     <button onClick={()=>dispatch({type:"C"})}>incrementCount</button>
     </>
     

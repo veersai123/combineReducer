@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 function Page1() {
@@ -6,7 +7,6 @@ function Page1() {
   return (
     <>
           <h1>{x}</h1>
-          <div>Page1</div>
           <button onClick={()=>dispatch({type:"A"})}>changeName</button>
     </>
     
